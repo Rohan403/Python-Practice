@@ -75,3 +75,50 @@
 # print(5 // 3) #1
 # print(5 % 3) #2
 # print(5 ** 3) #125
+
+# Assignmentshortcuts
+
+x = 5
+x += 3 # x = x + 3
+# print(x) # 8
+# Similar shortcuts include:
+# x -= 2
+# x *= 3
+# x /= 2
+# x //= 2
+# x %= 2
+# x **= 2
+
+# LogicalOperators
+# Logical operators combine or reverse conditions.
+# or
+# Returns True when at least one condition is true:
+# print((5 > 2) or (2 > 5)) # True
+# and
+# Returns True only when both conditions are true:
+# print((5 > 2) and (2 > 5)) # False
+# 13
+# not
+# Reverses a Boolean result:
+# print(not (5 > 2)) # False
+
+# Conditional statements
+
+# age = 20
+
+# Intendation
+# if age >=18:
+#     print("You can vote")
+# else:
+#     print("You cannot vote")
+
+# Problem: Print students grade if student's mark is between 80-100 then 'A' grade, if 60-80 'B' if less than 60 then 'C'.
+
+marks = float(input("Enter student marks: "))
+
+if marks >= 80 and marks <= 100:
+    print("A")
+elif marks >= 60 and marks <= 80:
+    print("B")
+else:
+    print("C")
