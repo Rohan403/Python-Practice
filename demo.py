@@ -114,11 +114,11 @@ x += 3 # x = x + 3
 
 # Problem: Print students grade if student's mark is between 80-100 then 'A' grade, if 60-80 'B' if less than 60 then 'C'.
 
-marks = float(input("Enter student marks: "))
+# marks = float(input("Enter student marks: "))
 
-if marks >= 80 and marks <= 100:
-    print("A")
-elif marks >= 60 and marks <= 80:
-    print("B")
-else:
-    print("C")
+# if marks >= 80 and marks <= 100:
+#     print("A")
+# elif marks >= 60 and marks <= 80:
+#     print("B")
+# else:
+#     print("C")
