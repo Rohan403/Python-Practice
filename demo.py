@@ -122,3 +122,94 @@ x += 3 # x = x + 3
 #     print("B")
 # else:
 #     print("C")
+# range() Function
+# range() generates a sequence of numbers, commonly used with loops.
+# numbers = range(5)
+# print(numbers)  # range(0, 5)
+# # The general syntax is:
+# # range(start, stop, step)
+# # start is included.
+# # stop is excluded.
+# # step controls the difference between numbers.
+# # The default start is 0
+# # The default step is 1
+# range(5) # 0, 1, 2, 3, 4
+# range(1, 6)      # 1, 2, 3, 4, 5
+# range(2, 11, 2)  # 2, 4, 6, 8, 10
+# range(5, 0, -1)  # 5, 4, 3, 2, 1
+# The stop value is not included in the sequence.
+# While loops
+# Print numbers
+# counter = 1
+# while counter <= 5:
+#     print(counter)
+#     counter += 1
+# print("End of code")
+# Print triangle
+# i = 0
+# while i <= 5:
+#     print(i * "*")
+#     i += 1
+# Print numbers from 1 to 5 in decerasing format
+# i = 5
+# while i > 0:
+#     print(i)
+#     i -= 1
+# Print an inverted triangle
+# i = 5
+# while i > 0:
+# A while loop repeats a block of code while its condition is True
+#     print(i * "*")
+#     i -= 1
+# For loops
+# Print values from 0 to 4
+# for i in range(5):
+#     print(i)
+# # Print values from 1 to 5
+# for i in range(1,6):
+#     print(i)
+# Print values from 1 to 5 in decending order
+# for i in range(5,0,-1):
+#     print(i)
+# Print even numbers using brute force
+# for i in range(1,11):
+#     if i % 2 == 0:
+#         print(i)
+# Print even numbers using range
+# for i in range(2,11,2):
+#     print(i)
+# Problem using input print even numbers
+# number = int(input("Enter a number: "))
+# for i in range(2,number + 1,2):
+#     print(i)
+# Printing stars using for loop
+# for i in range(1,6):
+#     print(i * "*")
+# Printing inverted stars
+# for i in range(5,0,-1):
+#     print(i * "*")
+# Print all odd numbers from 1 to 20
+# for i in range(1,21,2):
+#     print(i)
+# Print table of 57 using brute force
+# for i in range(1,571):
+#      if i % 57 == 0:
+#       print(i)
+# Print table of 57 using range
+# for i in range (57,571,57):
+#      print("57 x", i // 57, "=", i)
+# Printing 57 table using table format
+# for i in range(1,11):
+#     print(57,"x",i,"=",57 * i)
+# Print all the multiples of 3 from 1 to 50 but skip 15
+# for i in range(3,51,3):
+#     if i == 15:
+#         continue
+#     print(i)
+# Take 2 numbers as input a and b, find and print the first number between 1 and 1000 that is divisible by both numbers;
+# n1= int(input("Enter the first number: "))
+# n2 = int(input("Enter the second number: "))
+# for i in range(1,1001):
+#     if i % n1 == 0 and i % n2 == 0:
+#         print(i)
+#         break
