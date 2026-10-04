@@ -213,3 +213,85 @@ x += 3 # x = x + 3
 #     if i % n1 == 0 and i % n2 == 0:
 #         print(i)
 #         break
+
+# i = 1
+# while i <= 10:
+#     print("7 X",i,"=",7*i)
+#     i+=1
+
+# i = 3
+# while i <=100:
+#     print(i)
+#     i+= 3
+
+# i = 2
+# total = 0
+# while i <= 100:
+#     total = total + i
+#     i +=2
+# print(total)
+
+# i = 5
+# result = 1
+# while i > 0:
+#     result = result * i
+#     i -=1
+# print(result)
+
+# marks = [99,98,100,90,98,35,43,98]
+# print(marks.count(98))
+# print(len(marks)) # For knowing the length we use len
+# print(type(marks)) # For knowing the type
+# Index
+# print(marks[-1]) #For printing the last index of list
+# print(marks[-2]) #For printing the second last index of list similarly we can go on like this
+# Slicing
+# Slicing include majorly 2 things i.e starting and ending index just like the range in for loop, where the starting index is inclusive and the ending index is exclusive
+# print(marks[0:3]) # O/P [99, 98, 100] it will print the first 3 values as 3 will be excluded
+# For reverse order
+# print(marks[-3:-1]) # O/P [90, 35]
+# print(marks[-3:]) # O/P [90, 35, 43]
+# print(marks[:2]) # It will take 0 as starting index bydefaut
+# Printing the marks using for loop
+# for i in marks:
+#     print(i)
+# For adding a prticular value to a list
+# marks.append(50)
+# print(marks)
+# For inserting value at a particular index
+# marks.insert(1,50)
+# print(marks)
+# For clearing a list we use clear
+# marks.clear()
+# print(marks,len(marks))
+
+# Tuples
+# Lists are mutable where as Tuples are immutable
+# Tuples are almost similar to list only difference is we write it between () rather than []
+# marks = (99,98,100,90,98,35,43,98)
+# print(marks.count(98))
+# print(marks.index(98))
+# Here is the major difference
+# marks[0] = 100
+# print(marks) #O/P TypeError: 'tuple' object does not support item assignment
+
+# Set -> Unique data collection
+# marks = {99,98,100,90,98,35,43,98}
+# # print(len(marks)) #O/P 6
+# for i in marks:
+#     print(i)
+
+# Dictionary -> Dictionary is a collection of key/value pair
+# Dictionary is mutable we write it in key value pair
+# marks = {"Physics": 99, "Chemistry": 97, "Biology": 98}
+# # print(marks)
+# # marks["Physics"] = 95
+# # marks["English"] = 90
+# # print(marks["Physics"])
+# for i in marks:
+#     print(i,marks[i])
+# Tuples are faster than list and dictionary as they are immutable so we cannot to any modifications
+
+# Problem: Print uniqueroll nums
+# roll_numbers = [101, 105, 102, 101, 108, 105, 110]
+# print(set(roll_numbers))
